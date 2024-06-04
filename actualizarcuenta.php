@@ -11,8 +11,8 @@ if (@!$_SESSION['user']) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bancolombia</title>
-    <link rel="icon" type="image/png" href="imagenes/bancolombia.png" />
+    <title>DOTE CAJA MONETARIA</title>
+    <link rel="icon" type="image/png" href="./imagenes/logo/logo.svg" />
     <link href="static/css/style.css" rel="stylesheet">
     <!-- Agregamos los estilos de Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">

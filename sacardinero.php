@@ -29,7 +29,7 @@ if ($id) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D-capsulam</title>
+    <title>DOTE CAJA MONETARIA</title>
     <link rel="icon" type="image/png" href="./imagenes/logo/logo.svg" />
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -50,7 +50,7 @@ if ($id) {
                             <?php if ($dinero > 0) : ?>
                                 <script>alert('Usted sí tiene dinero en su cuenta bancaria')</script>
                                 <p class="text-dark">Usted sí tiene dinero en su cuenta bancaria</p>
-                                <form action="ejecutaactualizar.php" method="post">
+                                <form action="ejecutaactualizar1.php" method="post">
                                     <div class="form-group">
                                         <label for="id" class="text-dark">ID</label>
                                         <input type="text" class="form-control" name="id" value="<?php echo $id; ?>" readonly="readonly">

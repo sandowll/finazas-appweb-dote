@@ -27,7 +27,7 @@ if ($row = mysqli_fetch_row($ressql)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D-capsulam</title>
+    <title>DOTE CAJA MONETARIA</title>
     <link rel="icon" type="image/png" href="./imagenes/logo/logo.svg" />
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
     <style>

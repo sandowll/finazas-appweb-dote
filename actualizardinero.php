@@ -45,7 +45,7 @@ $dinero = $row['dinero'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSP</title>
+    <title>DOTE CAJA MONETARIA</title>
     <link rel="icon" type="image/png" href="./imagenes/logo/logo.svg">
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <style>

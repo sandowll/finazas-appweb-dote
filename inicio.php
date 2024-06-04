@@ -28,7 +28,7 @@ while ($row = mysqli_fetch_row($ressql)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DASS</title>
+    <title>DOTE CAJA MONETARIA</title>
     <link rel="icon" type="image/png" href="./imagenes/logo/logo.svg" />
 
     <link href="./static/css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +40,7 @@ while ($row = mysqli_fetch_row($ressql)) {
     </style>
 </head>
 
-<body class="bg-light">
+<body style="background-image: url('./imagenes/fondo/Fondo.jpg'); background-size: cover; background-position: center; background-attachment: fixed; background-repeat: no-repeat;   ">
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f3df00; color: black; border-color: black; width: 100%;">
         <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
             <ul class="navbar-nav">
@@ -69,6 +69,7 @@ while ($row = mysqli_fetch_row($ressql)) {
                                     <div class="form-group">
                                         <input type="number" name="dinero" class="form-control" placeholder="Ingrese la cantidad de dinero" min="0" max="500000" required="" />
                                     </div>
+                                    <br>
                                     <div class="form-group">
                                         <select class="form-control" name="tdocumento" required="">
                                             <option selected>Tipo de depósito</option>

@@ -3,40 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D-capsulam</title>
+    <title>BIENVENIDO CAJA MONETARIA VIRTUAL DOTE</title>
     <link rel="icon" type="image/png" href="./imagenes/logo/logo.svg" />
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .container {
-            max-width: 400px;
-        }
-    </style>
 </head>
-<body class="bg-light">
-    <main role="main" class="container">
+<body style="background-image: url('./imagenes/fondo/Fondo.jpg'); background-size: cover; background-position: center; background-attachment: fixed; background-repeat: no-repeat; height: 100vh; display: flex; align-items: center; justify-content: center;">
+      <div class="container text-center">
         <div class="row">
             <div class="col-12">
-                <div class="my-3 p-3 bg-white rounded box-shadow box-style">
-                    <div id="home-box">
-                        <div class="content">
-                            <h1 style="font-size:x-large; color:black; ">D-capsulam</h1>
-                            <p class="mt-3 text-left"><img src="./imagenes/logo/logo.svg" width="200" class="img-fluid float-left" alt="LikeFans"> <h5 style="color:black; ">
-                                Generamos un impacto positivo en la sociedad, transformando la vida de las personas que hacen parte de los diferentes programas y esquemas que apoyamos en nuestra organización.</h5></p>
-                            <div class="row">
-                                <div class="col">
-                                    <a class="nav-link" onclick="document.getElementById('modal-wrapper').style.display='block'"><button class="btn btn-warning" style="background-color: #f3df00; color: black; border-color: black; width: 100%;">INGRESAR </button></a>
-                                </div>
-                                <div class="col">
-                                    <a class="nav-link" onclick="document.getElementById('modal2-wrapper').style.display='block'"><button class="btn btn-warning" style="background-color: #f3df00; color: black; border-color: black; width: 100%;">REGISTRARSE </button></a>
-                                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">DOTE CAJA MONETARIA</h1>
+                        <img src="./imagenes/logo/logo.svg" alt="LikeFans" class="img-fluid mb-3" width="200">
+                        <p class="card-text">"Guarda tu dinero de manera segura y accesible para cumplir tus metas: pagar deudas, comprar una moto, tener un fondo para emergencias, ayudar a tus padres o costear los estudios de tus hijos. Nuestra caja monetaria virtual te brinda la tranquilidad de ahorrar para lo que más necesites o desees."</p>
+                        <div class="row">
+                            <div class="col">
+                                <a class="nav-link" onclick="document.getElementById('modal-wrapper').style.display='block'">
+                                    <button class="btn btn-warning btn-block" style="background-color: #f3df00; color: black; border-color: black;">INGRESAR</button>
+                                </a>
                             </div>
-                            <div class="clearfix"></div>
+                            <div class="col">
+                                <a class="nav-link" onclick="document.getElementById('modal2-wrapper').style.display='block'">
+                                    <button class="btn btn-warning btn-block" style="background-color: #f3df00; color: black; border-color: black;">REGISTRARSE</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 
     <!-- Importar archivos de modales -->
     <?php include 'modal/login.php'; ?>

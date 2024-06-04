@@ -1,7 +1,7 @@
 <?php
 
 
-		$mysqli = new MySQLi("localhost", "root","244", "capsulam");
+		$mysqli = new MySQLi("localhost", "root","244", "dote");
 		if ($mysqli -> connect_errno) {
 			die( "Fallo la conexión a MySQL: (" . $mysqli -> mysqli_connect_errno() 
 				. ") " . $mysqli -> mysqli_connect_error());

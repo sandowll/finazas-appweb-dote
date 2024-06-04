@@ -8,7 +8,7 @@
             <div class="text-center mb-4">
                 <img src="./imagenes/logo/logo.svg" alt="Logo" class="img-fluid shadow-sm rounded-circle" style="width: 60px; height: 60px;">
             </div>
-            <h1 class="card-title text-center mb-4 fw-bold text-uppercase lh-1" style="font-family: 'Montserrat', sans-serif; letter-spacing: 3px;">DSP</h1>
+            <h1 class="card-title text-center mb-4 fw-bold text-uppercase lh-1" style="font-family: 'Montserrat', sans-serif; letter-spacing: 3px;">DOTE CAJA MONETARIA</h1>
             </div>
             <div class="container">
                 <div class="col-sm-12 my-1">
